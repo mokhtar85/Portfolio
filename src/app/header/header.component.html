@@ -1,0 +1,33 @@
+<header class="fixed-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 p-flex flex-align-center p-flex-jc-sb">
+                <ul>
+                    <li class="p-hamburger">
+                        <!--<img  src="assets/img/hamburger.png" alt="the icone for chose" />-->
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </li>
+                    <li>
+                        <img   src="assets/img/searchbar.png" alt="the icone for search" width="20" />
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a  href="#home" [routerLinkActive]="['is-active']">Home</a>
+                    </li>
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a  [routerLink]="['portfolio']" [routerLinkActive]="['is-active']"> Portfolio</a>
+                    </li>
+                    <li>
+                        <a [routerLink]="['']" [routerLinkActive]="['is-active']">Reach</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>

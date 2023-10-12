@@ -1,0 +1,31 @@
+.p-profile{
+    background: url(/assets/img/moi.jpg);
+    width:40%;
+    height: 450px;
+    background-size: cover; /* Ajout de cette ligne */
+    background-position: top;
+    background-repeat: no-repeat;
+    float: left; /* Ajout de cette ligne */
+
+}
+.p-tag{
+    background: #989898;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 14px;
+}
+.p-des{
+    color: #acacac;
+    width: 80%;
+}
+.p-readmore{
+    color:#000;
+    font-size:20px;
+}
+/* your-component.css or your-component.scss */
+#home .col-sm-7{
+    margin-top: 100px; /* Adjust the margin as needed to push the content down */
+}
+#home .p-profile{
+    margin-top: 100px; /* Adjust the margin as needed to push the content down */
+}

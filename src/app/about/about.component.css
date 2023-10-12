@@ -1,0 +1,34 @@
+.p-de{
+    color: #acacac;
+}
+.p-profile{
+    background: url(/assets/img/about1.png);
+    width:40%;
+    height: 300px;
+    background-size: cover; /* Ajout de cette ligne */
+    background-position: top;
+    background-repeat: no-repeat;
+    float: left; /* Ajout de cette ligne */
+
+}
+
+/* your-component.css or your-component.scss */
+.about__info-title {
+    margin-right: 40px; /* Adjust the margin as needed */
+    width: 100%;
+    font-size: 24px;
+}
+#about .col-sm-7{
+    margin-top: 100px; /* Adjust the margin as needed to push the content down */
+}
+#about .col-sm-12{
+    margin-top: 100px; /* Adjust the margin as needed to push the content down */
+}
+/* your-component.css or your-component.scss */
+.btn.btn-info {
+    font-size: 18px; /* Adjust the font size as needed to make the button larger */
+    padding: 10px 50px; /* Adjust the padding to make the button wider */
+
+    margin: 0 auto; /* Center the button horizontally */
+    display: block; /* Ensure the button is a block-level element for centering */
+}
